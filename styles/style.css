@@ -1,0 +1,249 @@
+body{
+	background-color: black;
+}
+
+header{
+	background-image: url(../images/main1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:200px;
+	color:navajowhite;
+	border:1px solid orange;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: #696868;
+    padding: 5px;
+	border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: #94d180;
+}
+
+aside{
+	border:.5px solid red;
+    border-radius: 10px;
+	width: 18.5%;
+	float: right;
+    margin-bottom: 550px;
+}
+
+aside ul li{
+	list-style-type: none;
+}
+
+aside ul li a{
+	color: blue;
+	text-decoration: none; 
+}
+
+aside ol{
+	color: white;
+	list-style-type: none;
+}
+
+h2{
+	color: white;
+}
+
+h3{
+	color: white;
+    font-size: 22px;
+}
+
+h4{
+    color: white;
+    font-size: 25px;
+}
+
+h5{
+	color: white;
+	font-size: 25px;
+}
+
+h6{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+}
+
+p{
+    color: white;
+    text-align: justify;
+    font-size: 19px;    
+}
+
+main{
+    border: solid green 1px;
+    border-radius: 10px;
+    width: 79%;
+}
+
+footer{
+	color: white;
+	border: 1px solid orange;
+    border-radius: 10px;
+	background-color: #696868;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#bigPic {
+    float: right;
+    width: 79%;
+    padding: 1px;
+}
+
+#manager {
+    float: right;
+    padding: 2px;
+}
+
+#starter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#venison{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#camembert{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dessert1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dessert2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content{
+    float: left;
+	width: 78%;
+	margin-right: 15px;
+
+}
+
+.gototop {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.backgroundImageB{
+	background-image: url(../images/bacon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	border: 3px solid black;
+	margin: 2px;
+}
+
+.backgroundImageC{
+	background-image: url(../images/carrots.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	border: 3px solid black;
+	margin: 2px;
+}
+
+.backgroundImageD{
+	background-image: url(../images/eggs.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	border: 3px solid black;
+	margin: 2px;
+}
+
+.col_article{
+	column-count: 3;
+	column-rule: 1px solid white;
+	column-gap: 50px;
+	padding: 2px;
+}
+
+.col_article h4{
+	color: black;
+	font-size: 25px;
+}
+
+.col_article p{
+	color: black;
+} 
+
+.col_section{
+	column-count: 3;
+	column-rule: 1px solid white;
+	column-gap: 50px;
+	padding: 2px;
+}
+
+.menu section{
+	border: 5px solid white;
+	padding: 10px;
+}
+
+
+
+.column_section {
+    column-count: 2;
+    column-gap: 50px;
+    padding: 2px;
+}
